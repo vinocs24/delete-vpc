@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 touch delete_default_vpc.log
-LOG_FILE=/home/ec2-user/delete_default_vpc.log
+LOG_FILE=delete_default_vpc.log
 
   echo `date +"%D %R"` - Removing default VPC process started. | tee -a ${LOG_FILE}
   # get list of region
