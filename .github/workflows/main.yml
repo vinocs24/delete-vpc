@@ -29,4 +29,4 @@ jobs:
         aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{env.AWS_DEFAULT_REGION}}
     - name: delete default vpc
-      run: sh ./aws-delete-default-vpc.sh
+      run: bash ./aws-delete-default-vpc.sh
